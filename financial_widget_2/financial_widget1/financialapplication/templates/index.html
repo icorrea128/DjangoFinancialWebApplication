@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Quantitative Software Beta Model</title>
+  <!-- Bootstrap CSS CDN  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+
+  <!-- Font Awesome CSS Icons (For cool glyphicons) -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
+  <!-- Style to fix the issue of text extending past panel length -->
+  <style>
+    .card-body a {
+      word-break: break-all;
+    }
+
+    .articleHeadline {
+      line-height: 1.5;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Main Bootstrap Search -->
+  <div class="container">
+    <!-- Jumbotron for Title -->
+    <div class="jumbotron" style="background-color: rgb(32, 90, 35) ; color: white;">
+      <h1 class="text-center">
+        <strong>
+          <i class="building"></i>Quantitative Software Beta Model</strong>
+      </h1>
+    </div>
+    <div class="row">
+      <div class="col-sm-3">
+        <form role="form"></form>
+            <div class="form-group">
+              <label for="search">Search Ticker:</label>
+              <input type="text" class="form-control" id="ticker">
+              <label for="search">Amount Invested:</label>
+              <input type="text" class="form-control" id="investment">
+              <button type="submit" class="btn btn-default" id="run-Financial-Asset-search">
+                <i class="fa fa-search"></i> Search</button>
+            </div>
+        </form>
+      </div>
+      <div class="col-sm-7">
+        <img class="var" src="https://d2vlcm61l7u1fs.cloudfront.net/media%2Fa28%2Fa2848d11-8349-41b2-83e0-5356444cdbe2%2FphpEFHGHJ.png" height=160px width=160px>
+        <img class="qqplot" src="https://ih1.redbubble.net/image.555955700.9065/flat,550x550,075,f.u1.jpg" height=160px width=160px>
+        <img class="sharperatio" src="https://people.duke.edu/~charvey/Classes/ba350/riskman/rm13.gif" height=160px width=160px>
+      </div>
+      <div class="col-sm-2">
+        <canvas id="stockbasicinfo"></canvas>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3">
+
+      </div>
+      <div class="col-sm-7">
+        <img class="singleindex" src="https://d2vlcm61l7u1fs.cloudfront.net/media%2Fa28%2Fa2848d11-8349-41b2-83e0-5356444cdbe2%2FphpEFHGHJ.png" height=160px width=160px>
+        <img class="beta" src="https://ih1.redbubble.net/image.555955700.9065/flat,550x550,075,f.u1.jpg" height=160px width=160px>
+        <img class="alpha" src="https://people.duke.edu/~charvey/Classes/ba350/riskman/rm13.gif" height=160px width=160px>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3">
+
+      </div>
+      <div class="col-sm-7">
+        <img class="autoregressive" src="https://miro.medium.com/max/1180/1*V_Klp2qJTAZ5fGtJX8--fA.png" height=160px width=160px>
+        <img class="movingaverage" src="http://mathworld.wolfram.com/images/eps-gif/MovingAverage_1000.gif" height=160px width=160px>
+        <img class="arch" src="https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/Line-Plot-of-Expected-Variance-to-Predicted-Variance-using-ARCH.png" height=160px width=160px>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+
+      </div>
+      <div class="col-sm-4">
+        <footer>
+          <p>
+            Entrepreneurs Network
+          </p>
+        </footer>
+      </div>
+      <div class="col-sm-4">
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
