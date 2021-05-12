@@ -11,6 +11,6 @@
   "dependencies": {
     "django": "^1.0.0",
     "financejs": "^4.1.0",
-    "mathjs": "^6.5.0"
+    "mathjs": "^7.5.1"
   }
 }
